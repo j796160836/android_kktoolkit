@@ -12,8 +12,16 @@ see [Contributing Code](https://github.com/KKBOX/android_kktoolkit/wiki/Contribu
 
 1. Download the latest package, or fork and clone the repository if you like.
 
-1. Include the whole project folder in your Eclipse or ADT.
-
+1. Include the whole project folder in your Eclipse / ADT or Android Studio.  
+If you use Android Studio import as module, you have to modify your **gradle.properties** and
+add variables as follow,
+  ```
+  ANDROID_BUILD_SDK_VERSION=21
+  ANDROID_BUILD_TOOLS_VERSION=21.1.2
+  ANDROID_BUILD_MIN_SDK_VERSION=10
+  ANDROID_BUILD_TARGET_SDK_VERSION=21
+  ```
+  
 1. Set android_kktoolkit as a library of your project.
 
 1. Begin coding!
